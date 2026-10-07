@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MENU */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo-marca{
+    text-decoration: none;
+    color: #790E18;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+/* HERO */
+
+.imagem-fundo{
+    height: 100vh;
+
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("./imagens/SUBSTITUA_PELO_NOME_DA_SUA_FOTO.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 80px;
+}
+
+.imagem-fundo h2{
+    font-size: 60px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.imagem-fundo p{
+    max-width: 550px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.botao-ver-mais{
+    background-color: #790E18;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    width: fit-content;
+}
+
+/* SOBRE */
+
+main > div:first-of-type{
+    padding: 80px;
+}
+
+main > div:first-of-type h2{
+    color: #790E18;
+    margin-bottom: 20px;
+}
+
+main > div:first-of-type p{
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.contratar-botao{
+    background-color: #790E18;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+
+/* SERVIÇOS */
+
+.Servicos{
+    padding: 80px;
+}
+
+.Servicos > h2{
+    text-align: center;
+    color: #790E18;
+    margin-bottom: 40px;
+}
+
+.Servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Servicos div{
+    width: 280px;
+}
+
+.Servicos img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.Servicos h2{
+    color: #790E18;
+    margin-bottom: 10px;
+}
+
+.Servicos p{
+    line-height: 1.6;
+}
+
+/* GALERIA */
+
+.galeria-fotos{
+    padding: 80px;
+}
+
+.galeria-fotos h2{
+    text-align: center;
+    color: #790E18;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria-fotos div{
+    width: 280px;
+}
+
+.galeria-fotos img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* CONTATOS */
+
+.lista-de-contatos{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.item-contato{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.item-contato i{
+    color: #790E18;
+}
+
+/* SOBRE A COMPANHIA */
+
+.sobre-nos{
+    padding: 80px;
+    text-align: center;
+}
+
+.sobre-nos h2{
+    color: #790E18;
+    margin-bottom: 20px;
+}
+
+.sobre-nos p{
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.redes-sociais a{
+    color: #790E18;
+    font-size: 25px;
+}
+
+/* RODAPÉ */
+
+footer{
+    border-top: 1px solid #790E18;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.rodape a{
+    color: #790E18;
+    text-decoration: none;
+}
+    </style>
+    <title>Lumière Studio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo-marca"><h1>Lumière Studio</h1></a>
+            <ul>
+                <li>Sobre</li>
+                <li>Serviços</li>
+                <li>Fotos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="imagem-fundo">
+            <h2>Sua marca em destaque</h2>
+            <p>Especialistas em fotografia editorial para designers, campanhas publicitárias e produção de conteúdo para marcas de moda que desejam se destacar no mercado.</p>
+            <a href="vermais.html" target="_blank" class="botao-ver-mais">Ver mais</a>
+        </section>
+        <div>
+            <h2>Sobre</h2>
+            <p>Na Lumière Studio, acreditamos que cada imagem tem o poder de contar uma história. Especializados em fotografia de moda, criamos produções que valorizam marcas, coleções e identidades por meio de composições cuidadosamente planejadas e atenção aos detalhes.Nossa missão é transformar conceitos em imagens autênticas e impactantes, unindo criatividade, técnica e sensibilidade para produzir resultados que inspiram e conectam pessoas.</p>
+            <a href="contratar.html" target="_blank" class="contratar-botao">Contratar agora</a>
+        </div>
+        <section class="Servicos">
+            <h2>Servicos</h2>
+            <div class="fotografia">
+                <img src="./imagens/adewale-shobaloju-7anCI7l5Y1o-unsplash.jpg" alt="">
+                <h2>Fotografia</h2>
+                <p>Capturamos imagens que destacam a identidade de marcas, coleções e profissionais, transformando cada detalhe em uma composição marcante.</p>
+            </div>
+             <div class="edição de vídeos">
+                <img src="./imagens/ben-scott-bCnM5P0gcpY-unsplash.jpg" alt="">
+                <h2>Edição de videos</h2>
+                <p>Realizamos a edição e finalização de vídeos promocionais, garantindo qualidade visual e uma narrativa envolvente para cada projeto.</p>
+            </div>
+            <div class="Captação de imagens">
+                <img src="./imagens/chyntia-juls-HlVjI5WmoQY-unsplash.jpg" alt="">
+                <h2>Captação de imagens</h2>
+                <p>Planejamos e executamos sessões fotográficas e gravações com foco em criatividade, direção artística e excelência técnica.</p>
+            </div>
+            <div class="Tratamento de Imagens">
+               <img src="./imagens/alina-bordunova-M2oO37DV49A-unsplash.jpg" alt="">
+                <h2>Tratamento de imagens</h2>
+                <p>Aprimoramos cores, iluminação e detalhes para entregar fotografias refinadas, alinhadas à proposta visual de cada marca.</p>
+            </div>
+        </section>
+        <section class="galeria-fotos">
+            <h2>Fotos</h2>
+            <div>
+               <img src="./imagens/jasper-garratt-nXfJlT2sfng-unsplash.jpg" alt="">
+
+            </div>
+            <div>
+               <img src="./imagens/lauro-rodriguez-pj0l2ydVrCU-unsplash.jpg" alt="">
+            </div>
+            <div>
+                <img src="./imagens/ben-iwara-F7rj7WS0utE-unsplash.jpg" alt="">
+            
+            </div>
+             <div>
+               <img src="./imagens/christian-agbede-9PhDY3sd834-unsplash.jpg" alt="">
+            
+            </div>
+
+
+        </section>
+        <div class="lista-de-contatos">
+    <div class="item-contato">
+        <i class="fa-solid fa-location-dot"></i> 
+        <span>Rua Suassuna 234 Recife - PE</span>
+    </div>
+    <a href="tel:+5581981004445" class="item-contato link-azul">
+        <i class="fa-solid fa-phone"></i>
+        <span>(81)981004445</span>
+    </a>
+    <a href="mailto:criandosite@gmail.com" class="item-contato link-azul">
+        <i class="fa-solid fa-envelope"></i>
+        <span>(criandosite@gmail.com)</span>
+    </a>
+</div>
+    <section class="sobre-nos">
+        <h2>Sobre a companhia</h2>
+        <p>
+            Na Lumière Studio, acreditamos que a fotografia vai além do registro de imagens. Criamos experiências visuais que capturam a essência de cada marca, transformando conceitos em campanhas sofisticadas, autênticas e memoráveis.
+        </p>
+       <div class="redes-sociais">
+        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="rodape">
+    <p>Desenvolvido por </p>
+    <a href="#">voltar ao topo</a>
+    </div>
+    </footer>
+</body>
+</html>

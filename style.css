@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MENU */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo-marca{
+    text-decoration: none;
+    color: #790E18;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+/* HERO */
+
+.imagem-fundo{
+    height: 100vh;
+
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("./imagens/SUBSTITUA_PELO_NOME_DA_SUA_FOTO.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 80px;
+}
+
+.imagem-fundo h2{
+    font-size: 60px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.imagem-fundo p{
+    max-width: 550px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.botao-ver-mais{
+    background-color: #790E18;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    width: fit-content;
+}
+
+/* SOBRE */
+
+main > div:first-of-type{
+    padding: 80px;
+}
+
+main > div:first-of-type h2{
+    color: #790E18;
+    margin-bottom: 20px;
+}
+
+main > div:first-of-type p{
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.contratar-botao{
+    background-color: #790E18;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+
+/* SERVIÇOS */
+
+.Servicos{
+    padding: 80px;
+}
+
+.Servicos > h2{
+    text-align: center;
+    color: #790E18;
+    margin-bottom: 40px;
+}
+
+.Servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Servicos div{
+    width: 280px;
+}
+
+.Servicos img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.Servicos h2{
+    color: #790E18;
+    margin-bottom: 10px;
+}
+
+.Servicos p{
+    line-height: 1.6;
+}
+
+/* GALERIA */
+
+.galeria-fotos{
+    padding: 80px;
+}
+
+.galeria-fotos h2{
+    text-align: center;
+    color: #790E18;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria-fotos div{
+    width: 280px;
+}
+
+.galeria-fotos img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* CONTATOS */
+
+.lista-de-contatos{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.item-contato{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.item-contato i{
+    color: #790E18;
+}
+
+/* SOBRE A COMPANHIA */
+
+.sobre-nos{
+    padding: 80px;
+    text-align: center;
+}
+
+.sobre-nos h2{
+    color: #790E18;
+    margin-bottom: 20px;
+}
+
+.sobre-nos p{
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.redes-sociais a{
+    color: #790E18;
+    font-size: 25px;
+}
+
+/* RODAPÉ */
+
+footer{
+    border-top: 1px solid #790E18;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.rodape a{
+    color: #790E18;
+    text-decoration: none;
+}
